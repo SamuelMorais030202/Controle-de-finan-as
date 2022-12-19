@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-color: #e4e4e4;
+}
+
+header {
+  text-align: center;
+  background-color:  rgb(2, 121, 61);
+  color: #fefefe;
+  padding: 30px;
+}
+
+.values {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.value {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 100px;
+  padding: 20px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input {
+  margin-top: 5px;
+  height: 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+button {
+  border-radius: 4px;
+  height: 30px;
+  color: #e4e4e4;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.spending {
+  background-color: rgb(252, 47, 47);
+}
+
+.appetizer {
+  background-color: rgb(2, 121, 61);
+}
+
+.containerTable {
+  padding: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 70%;
+}
+
+tr {
+  margin-bottom: 8px;
+}
+
+td {
+  margin-top: 18px;
+  width: 50%;
+}
